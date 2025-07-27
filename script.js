@@ -30,7 +30,7 @@ userRef.once("value").then(snapshot => {
 });
 
 function copyReferral() {
-  const link = `https://t.me/YourBot?start=${userId}`;
+  const link = `https://t.me/Refferral_mmbot?start=${userId}`;
   navigator.clipboard.writeText(link);
   alert("Referral link copied!");
 }
